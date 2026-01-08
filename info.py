@@ -206,7 +206,7 @@ BAD_WORDS = {
 # ============================
 
 NO_PORT = bool(environ.get('NO_PORT', False))
-APP_NAME = None
+APP_NAME = autofilterpaid
 if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = environ.get('APP_NAME')
